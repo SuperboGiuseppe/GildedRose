@@ -16,9 +16,11 @@ public class GildedRose {
 		items.add(item);
 	}
 
+	//Constructor
 	public GildedRose() {
 		items = new ArrayList<Item>();
 	}
+	
     public static void updateEndOfDay()
     {
         for (int i = 0; i < items.size(); i++)
